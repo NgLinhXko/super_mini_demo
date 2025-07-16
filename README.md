@@ -1,6 +1,9 @@
 # SuperMiniDemo direction
 
 ## Chức năng các folder
+- **Flutter:/**: 3.19.6
+- **Dart:/**: 3.3.4
+- **JDK/**: jdk11
 
 - **flutter_host_app/**: Là project Super (host app), ứng dụng chính chứa WebView để nhúng mini app.
 - **mp_mini_app/**: Là project Mini App, ứng dụng con chạy độc lập, có thể nhúng vào host app qua WebView.
@@ -60,3 +63,10 @@ http://10.0.2.2:3000 (dành cho Android emulator)
    firebase deploy
    ```
 7. Hoặc deploy lên bất kỳ host nào khác tùy ý.
+
+
+### 4. Sử dụng library 
+gọi hàm 
+```bash
+   HostAppSDK.openMiniApp(url, data)
+   ```
