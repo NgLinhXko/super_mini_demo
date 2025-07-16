@@ -1,0 +1,7 @@
+{
+  "name": "mp_mini_app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "dart pub global run mpflutter_dev_server --target lib/main.dart"
+  }
+}
